@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: 1
+---
+
 
 
 ## 一、Flutter介绍
@@ -19,13 +23,13 @@
 
      * （1）系统变量里面新增 JAVA_HOME，设置值为 java sdk 根目录：
 
-     * ![image-20201029165259286](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201029165259286.png)
+       ![Image text](https://github.com/Wmeng22/pages/blob/main/pages/1.png)
 
      * （2）系统变量找到 Path 在 Path 环境变量里面增加如下代码
 
        ;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
 
-       ![image-20201029165510960](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201029165510960.png)
+       ![image-20201029165510960](https://github.com/Wmeng22/pages/blob/main/pages/2.png)
 
        
 
@@ -33,7 +37,7 @@
 
 启动Android Studio，然后执行“Android Studio安装向导”。安装Android SDK，Android SDK平台工具和Android SDK构建工具，这是Flutter为Android开发时所必需的
 
-![image-20201102114117419](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201102114117419.png)
+![image-20201102114117419](https://github.com/Wmeng22/pages/blob/main/pages/3.png)
 
 ### （三）、电脑上面下载配置 Flutter Sdk
 
@@ -41,22 +45,22 @@
   https://flutter.dev/docs/development/tools/sdk/releases#windows 
 * 2、把下载好的 Flutter SDK 随便减压到你想安装 Sdk 的目录如（E:\flutter_windows\flutter）
 
-![image-20201029170431006](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201029170431006.png)
+![image-20201029170431006](https://github.com/Wmeng22/pages/blob/main/pages/4.png)
 
 * 3、把 Flutter 安装目录的 bin 目录配置到环境变量。 
   如图所示需要把 E:\flutter_windows\flutter\bin 目录配置到 path 环境变量里面
 
-  ![image-20201029170551100](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201029170551100.png)
+  ![image-20201029170551100](https://github.com/Wmeng22/pages/blob/main/pages/5.png)
 
 ### （四）、运行 flutter doctor 命令检测环境是否配置成功
 
-![image-20201029170748693](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201029170748693.png)
+![image-20201029170748693](https://github.com/Wmeng22/pages/blob/main/pages/6.png)
 
 
 
 运行的时候可能会提示下面错误：
 
-![image-20201029170908209](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201029170908209.png)
+![image-20201029170908209](https://github.com/Wmeng22/pages/blob/main/pages/7.png)
 
 
 
@@ -75,7 +79,7 @@
 
 
 
-![image-20201029172148787](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201029172148787.png)
+![image-20201029172148787](https://github.com/Wmeng22/pages/blob/main/pages/8.png)
 
 | 文件夹       | 作用                                               |
 | ------------ | -------------------------------------------------- |
@@ -213,13 +217,13 @@ Flutter有一套丰富、强大的基础widget，其中以下是很常用的：
 
 * 如果你习惯用 Android Studio 的话可以直接用 Android Studio 直接开发 Flutter。但是 Android Studio 比较耗费电脑资源，所以比较推荐使用 Vscode
 
-  ![image-20201102142507842](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201102142507842.png)
+  ![image-20201102142507842](https://github.com/Wmeng22/pages/blob/main/pages/9.png)
 
 * Vscode 中安装 Flutter 插件 Dart 插件
 
-  ![image-20201030105548408](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201030105548408.png)
+  ![image-20201030105548408](https://github.com/Wmeng22/pages/blob/main/pages/10.png)
 
-  ![image-20201030105617591](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201030105617591.png)
+  ![image-20201030105617591](https://github.com/Wmeng22/pages/blob/main/pages/11.png)
 
 * 运行 Flutter 项目： 
 
